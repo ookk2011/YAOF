@@ -137,3 +137,4 @@ jobs:
         artifacts: ./artifact/*.zip
     - name: Print Disk Space After
       run: df -h
+     UPLOAD_RELEASE: true
